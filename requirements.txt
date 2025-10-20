@@ -1,0 +1,21 @@
+# Core Data Science Libraries
+pandas>=2.3.3
+numpy>=2.3.4
+
+# Machine Learning
+scikit-learn>=1.7.2
+scikit-fuzzy>=0.5.0
+
+# Visualization
+matplotlib>=3.10.7
+seaborn>=0.13.2
+
+# Model Persistence
+joblib>=1.4.2
+
+# Jupyter Notebook (optional, for running the notebook)
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Optional: Progress bars (if you want to add them)
+tqdm>=4.66.0
