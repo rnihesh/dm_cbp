@@ -1,0 +1,10 @@
+Metric,K-Means,Fuzzy C-Means
+Number of Clusters,34,34
+Training Time (seconds),0.08,0.38
+Silhouette Score (Train),0.5520,0.6403
+Silhouette Score (Test),0.5537,0.6418
+Davies-Bouldin Index (Train),1.4250,1.5267
+Davies-Bouldin Index (Test),1.4340,2.1311
+Calinski-Harabasz (Train),208155.71,479.59
+Calinski-Harabasz (Test),68608.75,42916.67
+Special Metric,N/A,FPC: 0.7897
