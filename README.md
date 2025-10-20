@@ -11,20 +11,20 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Methodology](#methodology)
-- [Results](#results)
-- [Visualizations](#visualizations)
-- [Save/Load Checkpoints](#saveload-checkpoints)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Contributing](#contributing)
-- [Citation](#citation)
-- [License](#license)
+- [Overview](#-overview)
+- [Dataset](#-dataset)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Methodology](#-methodology)
+- [Results](#-results)
+- [Visualizations](#-visualizations)
+- [Save/Load Checkpoints](#-saveload-checkpoints)
+- [Project Structure](#-project-structure)
+- [Requirements](#-requirements)
+- [Contributing](#-contributing)
+- [Citation](#-citation)
+- [License](#-license)
 
 ---
 
