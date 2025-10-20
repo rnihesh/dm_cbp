@@ -41,7 +41,7 @@ The pipeline includes:
 ✅ Train/Validation/Test split (64%/16%/20%)  
 ✅ Multiple clustering algorithms  
 ✅ Comprehensive performance metrics  
-✅ Publication-quality visualizations  
+✅ Publication-quality visualizations
 
 **Target Audience:** Researchers, data scientists, and students working on IoT security, network traffic analysis, or clustering algorithms.
 
@@ -64,6 +64,7 @@ The pipeline includes:
 ## ✨ Features
 
 ### 🔧 **Data Processing**
+
 - Memory-efficient data loading with sampling
 - Automatic missing value handling
 - Duplicate removal
@@ -71,17 +72,20 @@ The pipeline includes:
 - Stratified train/validation/test splitting
 
 ### 🎯 **Feature Selection**
+
 - Information Gain (Mutual Information) based selection
 - Visualization of feature importance
 - Configurable feature count (default: top 30)
 
 ### 🤖 **Clustering Algorithms**
+
 - **K-Means:** Standard and MiniBatch variants
 - **Fuzzy C-Means:** With membership analysis
 - Elbow method for optimal cluster selection
 - Silhouette analysis
 
 ### 📈 **Performance Metrics**
+
 - Silhouette Score
 - Davies-Bouldin Index
 - Calinski-Harabasz Score
@@ -89,6 +93,7 @@ The pipeline includes:
 - Cluster distribution analysis
 
 ### 🎨 **Visualizations** (15 types)
+
 1. PCA 2D/3D cluster visualization
 2. t-SNE non-linear visualization
 3. Cluster distribution (bar/pie charts)
@@ -106,6 +111,7 @@ The pipeline includes:
 15. Training time comparison
 
 ### 💾 **Save/Load Functionality**
+
 - Complete checkpoint system
 - Individual component saving
 - Resume work from any point
@@ -116,6 +122,7 @@ The pipeline includes:
 ## 🚀 Installation
 
 ### Prerequisites
+
 - Python 3.12+
 - 24GB RAM recommended (or use sampling)
 - macOS, Linux, or Windows
@@ -160,11 +167,13 @@ jupyter notebook test.ipynb
 ### Step-by-Step Workflow
 
 1. **Configure Parameters** (Cell 2)
+
    ```python
    SAMPLE_FRACTION = 0.05  # Use 5% of data (adjust based on RAM)
    ```
 
 2. **Run Analysis Cells** (in order)
+
    - Data loading and cleaning
    - Feature selection
    - Data splitting
@@ -173,10 +182,12 @@ jupyter notebook test.ipynb
    - Performance evaluation
 
 3. **Generate Visualizations**
+
    - Run visualization cells (15 types)
    - All saved as high-resolution PNG files
 
 4. **Save Your Work**
+
    ```python
    # Run the "Save Everything" cell
    # Creates checkpoint in saved_models/
@@ -205,33 +216,37 @@ viz_sample_size = 3000      # Reduce sample for visualizations
 ## 🔬 Methodology
 
 ### 1. Data Preprocessing
+
 - **Sampling:** Random sampling (5% default) for memory efficiency
 - **Cleaning:** Remove duplicates, handle missing values
 - **Normalization:** StandardScaler (zero mean, unit variance)
 
 ### 2. Feature Selection
+
 - **Method:** Information Gain (Mutual Information)
 - **Threshold:** Top 30 features (configurable)
 - **Validation:** Feature importance visualization
 
 ### 3. Data Split
+
 - **Training:** 64% (model training)
 - **Validation:** 16% (hyperparameter tuning)
 - **Testing:** 20% (final evaluation)
 - **Stratification:** Maintains class distribution
 
 ### 4. Clustering
-- **K-Means:** 
+
+- **K-Means:**
   - Elbow method for optimal k
   - MiniBatch variant for large datasets
   - n_init=5, max_iter=300
-  
 - **Fuzzy C-Means:**
   - Fuzziness parameter m=2
   - Error threshold=0.005
   - max_iter=1000
 
 ### 5. Evaluation
+
 - Multiple metrics for comprehensive comparison
 - Per-cluster analysis
 - Cross-algorithm comparison
@@ -242,13 +257,13 @@ viz_sample_size = 3000      # Reduce sample for visualizations
 
 ### Performance Comparison (Example)
 
-| Metric | K-Means | Fuzzy C-Means |
-|--------|---------|---------------|
-| Silhouette Score | 0.XXXX | 0.XXXX |
-| Davies-Bouldin Index | X.XXXX | X.XXXX |
-| Calinski-Harabasz Score | XXX.XX | XXX.XX |
-| Training Time (s) | XX.XX | XX.XX |
-| FPC | N/A | 0.XXXX |
+| Metric                  | K-Means | Fuzzy C-Means |
+| ----------------------- | ------- | ------------- |
+| Silhouette Score        | 0.XXXX  | 0.XXXX        |
+| Davies-Bouldin Index    | X.XXXX  | X.XXXX        |
+| Calinski-Harabasz Score | XXX.XX  | XXX.XX        |
+| Training Time (s)       | XX.XX   | XX.XX         |
+| FPC                     | N/A     | 0.XXXX        |
 
 > Results will vary based on sampling and data characteristics.
 
@@ -258,7 +273,7 @@ viz_sample_size = 3000      # Reduce sample for visualizations
 ✅ K-Means is faster but produces hard assignments  
 ✅ FCM provides fuzzy membership with higher computational cost  
 ✅ Feature selection reduces dimensionality by ~XX%  
-✅ Sampling (5%) maintains statistical validity  
+✅ Sampling (5%) maintains statistical validity
 
 ---
 
