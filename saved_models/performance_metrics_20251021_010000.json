@@ -1,0 +1,26 @@
+{
+  "kmeans": {
+    "algorithm": "K-Means",
+    "n_clusters": 34.0,
+    "training_time": 0.07626509666442871,
+    "silhouette_train": 0.5519853384482549,
+    "davies_bouldin_train": 1.4250482435472474,
+    "calinski_harabasz_train": 208155.7108948408,
+    "silhouette_test": 0.5537388183708504,
+    "davies_bouldin_test": 1.4339966611043267,
+    "calinski_harabasz_test": 68608.75363231362
+  },
+  "fcm": {
+    "algorithm": "Fuzzy C-Means",
+    "n_clusters": 34.0,
+    "training_time": 0.3827660083770752,
+    "fpc_train": 0.7906464300919043,
+    "fpc_test": 0.7897368668053592,
+    "silhouette_train": 0.6403327861375059,
+    "davies_bouldin_train": 1.5267297941757503,
+    "calinski_harabasz_train": 479.5897540446661,
+    "silhouette_test": 0.641784415484049,
+    "davies_bouldin_test": 2.131085701583334,
+    "calinski_harabasz_test": 42916.6734608913
+  }
+}
