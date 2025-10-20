@@ -1,3 +1,35 @@
+# Data files (too large for GitHub)
 *.csv
 *.arff
+
+# Model/checkpoint files
 *.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Saved models directory
+saved_models/
+
+# Generated visualizations (optional - uncomment if you want to exclude)
+# viz_*.png
